@@ -1,0 +1,118 @@
+<footer class="footer">
+	<div class="container">
+		<div class="footer-content">
+			<div class="footer-section">
+				<div class="logo">
+					<div class="logo-icon">🩸</div>
+					<span class="logo-text">BloodConnect</span>
+				</div>
+				<p class="footer-description">
+					Connecting blood donors with those in need. Every donation saves up to three lives.
+				</p>
+			</div>
+			<div class="footer-section">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/donor-dashboard">Become a Donor</a></li>
+					<li><a href="/receiver-dashboard">Find Donors</a></li>
+					<li><a href="/awareness">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Emergency Contact</h3>
+				<p>📞 1-800-BLOOD-HELP</p>
+				<p>📧 emergency@bloodconnect.org</p>
+				<p>🏥 Available 24/7</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2025 BloodConnect. All rights reserved. Saving lives together.</p>
+		</div>
+	</div>
+</footer>
+
+<style>
+	.footer {
+		background: #1f2937;
+		color: white;
+		padding: 3rem 0 1rem;
+		margin-top: 4rem;
+	}
+
+	.footer-content {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+
+	.logo-icon {
+		font-size: 2rem;
+		margin-right: 0.5rem;
+	}
+
+	.logo-text {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #dc2626;
+	}
+
+	.footer-description {
+		color: #9ca3af;
+		line-height: 1.6;
+	}
+
+	.footer-section h3 {
+		margin-bottom: 1rem;
+		color: #dc2626;
+		font-weight: 600;
+	}
+
+	.footer-section ul {
+		list-style: none;
+	}
+
+	.footer-section ul li {
+		margin-bottom: 0.5rem;
+	}
+
+	.footer-section ul li a {
+		color: #9ca3af;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	.footer-section ul li a:hover {
+		color: white;
+	}
+
+	.footer-section p {
+		color: #9ca3af;
+		margin-bottom: 0.5rem;
+	}
+
+	.footer-bottom {
+		border-top: 1px solid #374151;
+		padding-top: 1rem;
+		text-align: center;
+		color: #9ca3af;
+	}
+
+	@media (max-width: 768px) {
+		.footer {
+			padding: 2rem 0 1rem;
+		}
+		
+		.footer-content {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+	}
+</style>

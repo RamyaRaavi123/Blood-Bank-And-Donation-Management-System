@@ -1,0 +1,731 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout>
+	<Header currentPage="awareness" />
+	
+	<main class="awareness">
+		<div class="container">
+			<!-- Hero Section -->
+			<section class="awareness-hero">
+				<div class="hero-content">
+					<h1>Blood Donation Awareness</h1>
+					<p>Understanding the importance of blood donation and how it saves lives every day</p>
+				</div>
+			</section>
+
+			<!-- Why Donate Section -->
+			<section class="why-donate">
+				<h2 class="section-title">Why Blood Donation Matters</h2>
+				<div class="importance-grid">
+					<div class="importance-card">
+						<div class="importance-icon">🏥</div>
+						<h3>Medical Emergencies</h3>
+						<p>Accident victims, surgical patients, and emergency cases depend on immediate blood availability. Your donation could be the difference between life and death.</p>
+					</div>
+					<div class="importance-card">
+						<div class="importance-icon">🎗️</div>
+						<h3>Cancer Treatment</h3>
+						<p>Cancer patients undergoing chemotherapy often need regular blood transfusions. Your donation helps them continue their fight against cancer.</p>
+					</div>
+					<div class="importance-card">
+						<div class="importance-icon">👶</div>
+						<h3>Childbirth Complications</h3>
+						<p>Mothers experiencing complications during childbirth may need blood transfusions to save both mother and child.</p>
+					</div>
+					<div class="importance-card">
+						<div class="importance-icon">🩺</div>
+						<h3>Chronic Conditions</h3>
+						<p>Patients with conditions like sickle cell disease, thalassemia, and other blood disorders require regular transfusions.</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Facts Section -->
+			<section class="facts-section">
+				<h2 class="section-title">Blood Donation Facts</h2>
+				<div class="facts-grid">
+					<div class="fact-card">
+						<div class="fact-number">1</div>
+						<div class="fact-text">
+							<h3>Every 2 Seconds</h3>
+							<p>Someone in the world needs blood</p>
+						</div>
+					</div>
+					<div class="fact-card">
+						<div class="fact-number">3</div>
+						<div class="fact-text">
+							<h3>Lives Saved</h3>
+							<p>One blood donation can save up to 3 lives</p>
+						</div>
+					</div>
+					<div class="fact-card">
+						<div class="fact-number">56</div>
+						<div class="fact-text">
+							<h3>Days Shelf Life</h3>
+							<p>Red blood cells can be stored for up to 42 days</p>
+						</div>
+					</div>
+					<div class="fact-card">
+						<div class="fact-number">37%</div>
+						<div class="fact-text">
+							<h3>Eligible Donors</h3>
+							<p>Only 37% of population is eligible to donate</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Process Section -->
+			<section class="process-section">
+				<h2 class="section-title">The Donation Process</h2>
+				<div class="process-timeline">
+					<div class="timeline-item">
+						<div class="timeline-icon">📋</div>
+						<div class="timeline-content">
+							<h3>Registration & Health Check</h3>
+							<p>Complete a brief health questionnaire and undergo a mini-physical examination including temperature, blood pressure, and hemoglobin check.</p>
+							<span class="timeline-duration">10-15 minutes</span>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-icon">🩸</div>
+						<div class="timeline-content">
+							<h3>Blood Donation</h3>
+							<p>The actual blood collection process where approximately 450ml of blood is collected. You'll be seated comfortably throughout.</p>
+							<span class="timeline-duration">8-10 minutes</span>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-icon">🍪</div>
+						<div class="timeline-content">
+							<h3>Rest & Refreshment</h3>
+							<p>Relax and enjoy refreshments to help your body recover. Our staff will monitor you to ensure you feel well before leaving.</p>
+							<span class="timeline-duration">10-15 minutes</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Eligibility Section -->
+			<section class="eligibility-section">
+				<div class="eligibility-content">
+					<div class="eligibility-text">
+						<h2>Am I Eligible to Donate?</h2>
+						<div class="eligibility-lists">
+							<div class="eligible-list">
+								<h3>✅ You CAN donate if you:</h3>
+								<ul>
+									<li>Are 18-65 years old</li>
+									<li>Weigh at least 50kg (110 lbs)</li>
+									<li>Are in good general health</li>
+									<li>Have normal blood pressure</li>
+									<li>Haven't donated in the last 56 days</li>
+									<li>Are well-rested and hydrated</li>
+								</ul>
+							</div>
+							<div class="ineligible-list">
+								<h3>❌ You CANNOT donate if you:</h3>
+								<ul>
+									<li>Have a cold, flu, or fever</li>
+									<li>Are pregnant or breastfeeding</li>
+									<li>Have certain medical conditions</li>
+									<li>Recently got a tattoo or piercing</li>
+									<li>Have traveled to certain countries</li>
+									<li>Are taking certain medications</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="eligibility-image">
+						<div class="health-check-card">
+							<div class="health-icon">🩺</div>
+							<h3>Free Health Benefits</h3>
+							<p>Every donation includes a free mini health screening including:</p>
+							<ul>
+								<li>Blood pressure check</li>
+								<li>Hemoglobin level test</li>
+								<li>Temperature check</li>
+								<li>Basic health assessment</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Blood Types Section -->
+			<section class="blood-types-section">
+				<h2 class="section-title">Understanding Blood Types</h2>
+				<div class="blood-compatibility">
+					<div class="compatibility-chart">
+						<h3>Blood Type Compatibility Chart</h3>
+						<div class="chart-grid">
+							<div class="chart-header">
+								<div>Blood Type</div>
+								<div>Can Donate To</div>
+								<div>Can Receive From</div>
+								<div>Frequency</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">O-</div>
+								<div>All types</div>
+								<div>O-</div>
+								<div>6.6%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">O+</div>
+								<div>O+, A+, B+, AB+</div>
+								<div>O+, O-</div>
+								<div>37.4%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">A-</div>
+								<div>A-, A+, AB-, AB+</div>
+								<div>A-, O-</div>
+								<div>6.3%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">A+</div>
+								<div>A+, AB+</div>
+								<div>A+, A-, O+, O-</div>
+								<div>35.7%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">B-</div>
+								<div>B-, B+, AB-, AB+</div>
+								<div>B-, O-</div>
+								<div>1.5%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">B+</div>
+								<div>B+, AB+</div>
+								<div>B+, B-, O+, O-</div>
+								<div>8.5%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">AB-</div>
+								<div>AB-, AB+</div>
+								<div>All negative types</div>
+								<div>0.6%</div>
+							</div>
+							<div class="chart-row">
+								<div class="blood-type">AB+</div>
+								<div>AB+</div>
+								<div>All types</div>
+								<div>3.4%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Myths Section -->
+			<section class="myths-section">
+				<h2 class="section-title">Common Myths vs Facts</h2>
+				<div class="myths-grid">
+					<div class="myth-card">
+						<div class="myth-header">
+							<span class="myth-label">MYTH</span>
+							<h3>Blood donation is painful</h3>
+						</div>
+						<div class="fact-content">
+							<span class="fact-label">FACT</span>
+							<p>You'll only feel a slight pinch when the needle is inserted. Most donors report minimal discomfort during the process.</p>
+						</div>
+					</div>
+					<div class="myth-card">
+						<div class="myth-header">
+							<span class="myth-label">MYTH</span>
+							<h3>Donating blood makes you weak</h3>
+						</div>
+						<div class="fact-content">
+							<span class="fact-label">FACT</span>
+							<p>Your body replaces the donated blood within 24-48 hours. Most people can resume normal activities immediately after donation.</p>
+						</div>
+					</div>
+					<div class="myth-card">
+						<div class="myth-header">
+							<span class="myth-label">MYTH</span>
+							<h3>You can catch diseases from donating</h3>
+						</div>
+						<div class="fact-content">
+							<span class="fact-label">FACT</span>
+							<p>All equipment is sterile and used only once. There's no risk of infection from donating blood.</p>
+						</div>
+					</div>
+					<div class="myth-card">
+						<div class="myth-header">
+							<span class="myth-label">MYTH</span>
+							<h3>Older people can't donate blood</h3>
+						</div>
+						<div class="fact-content">
+							<span class="fact-label">FACT</span>
+							<p>Healthy individuals up to age 65 can donate blood. Age alone doesn't disqualify you from donating.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CTA Section -->
+			<section class="cta-section">
+				<div class="cta-content">
+					<h2>Ready to Save Lives?</h2>
+					<p>Your single donation can help save up to three lives. Join our community of heroes today.</p>
+					<div class="cta-buttons">
+						<a href="/donor-dashboard" class="btn btn-primary">🩸 Become a Donor</a>
+						<a href="/receiver-dashboard" class="btn btn-secondary">🔍 Find Donors</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<Footer />
+</Layout>
+
+<style>
+	.awareness {
+		padding: 2rem 0;
+	}
+
+	.awareness-hero {
+		text-align: center;
+		padding: 3rem 0;
+		background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
+		border-radius: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.hero-content h1 {
+		font-size: 3rem;
+		font-weight: 700;
+		color: #1f2937;
+		margin-bottom: 1rem;
+	}
+
+	.hero-content p {
+		font-size: 1.25rem;
+		color: #6b7280;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.section-title {
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: #1f2937;
+		margin-bottom: 3rem;
+	}
+
+	.why-donate {
+		margin-bottom: 4rem;
+	}
+
+	.importance-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2rem;
+	}
+
+	.importance-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		transition: transform 0.3s ease;
+	}
+
+	.importance-card:hover {
+		transform: translateY(-4px);
+	}
+
+	.importance-icon {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.importance-card h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: #dc2626;
+		margin-bottom: 1rem;
+	}
+
+	.importance-card p {
+		color: #6b7280;
+		line-height: 1.6;
+	}
+
+	.facts-section {
+		background: #1f2937;
+		color: white;
+		padding: 4rem 0;
+		border-radius: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.facts-section .section-title {
+		color: white;
+	}
+
+	.facts-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 2rem;
+	}
+
+	.fact-card {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.fact-number {
+		font-size: 4rem;
+		font-weight: 700;
+		color: #dc2626;
+		margin-bottom: 1rem;
+	}
+
+	.fact-text h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+	}
+
+	.fact-text p {
+		color: #9ca3af;
+	}
+
+	.process-section {
+		margin-bottom: 4rem;
+	}
+
+	.process-timeline {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.timeline-item {
+		display: flex;
+		gap: 2rem;
+		margin-bottom: 3rem;
+		align-items: flex-start;
+	}
+
+	.timeline-icon {
+		font-size: 3rem;
+		background: #fef2f2;
+		padding: 1rem;
+		border-radius: 50%;
+		min-width: 80px;
+		text-align: center;
+	}
+
+	.timeline-content h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: #dc2626;
+		margin-bottom: 0.5rem;
+	}
+
+	.timeline-content p {
+		color: #6b7280;
+		line-height: 1.6;
+		margin-bottom: 0.5rem;
+	}
+
+	.timeline-duration {
+		background: #dc2626;
+		color: white;
+		padding: 0.25rem 0.75rem;
+		border-radius: 9999px;
+		font-size: 0.875rem;
+		font-weight: 500;
+	}
+
+	.eligibility-section {
+		margin-bottom: 4rem;
+	}
+
+	.eligibility-content {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 3rem;
+		align-items: start;
+	}
+
+	.eligibility-text h2 {
+		font-size: 2rem;
+		font-weight: 700;
+		color: #1f2937;
+		margin-bottom: 2rem;
+	}
+
+	.eligibility-lists {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
+
+	.eligible-list h3,
+	.ineligible-list h3 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+	}
+
+	.eligible-list h3 {
+		color: #059669;
+	}
+
+	.ineligible-list h3 {
+		color: #dc2626;
+	}
+
+	.eligible-list ul,
+	.ineligible-list ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.eligible-list li,
+	.ineligible-list li {
+		padding: 0.5rem 0;
+		color: #374151;
+		border-bottom: 1px solid #e5e7eb;
+	}
+
+	.health-check-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		text-align: center;
+	}
+
+	.health-icon {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.health-check-card h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: #dc2626;
+		margin-bottom: 1rem;
+	}
+
+	.health-check-card p {
+		color: #6b7280;
+		margin-bottom: 1rem;
+	}
+
+	.health-check-card ul {
+		list-style: none;
+		text-align: left;
+	}
+
+	.health-check-card li {
+		padding: 0.25rem 0;
+		color: #374151;
+	}
+
+	.blood-types-section {
+		margin-bottom: 4rem;
+	}
+
+	.compatibility-chart {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	.compatibility-chart h3 {
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: #dc2626;
+		margin-bottom: 2rem;
+	}
+
+	.chart-grid {
+		background: white;
+		border-radius: 1rem;
+		overflow: hidden;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+	}
+
+	.chart-header {
+		display: grid;
+		grid-template-columns: 1fr 2fr 2fr 1fr;
+		background: #dc2626;
+		color: white;
+		font-weight: 600;
+		padding: 1rem;
+	}
+
+	.chart-row {
+		display: grid;
+		grid-template-columns: 1fr 2fr 2fr 1fr;
+		padding: 1rem;
+		border-bottom: 1px solid #e5e7eb;
+		align-items: center;
+	}
+
+	.chart-row:last-child {
+		border-bottom: none;
+	}
+
+	.chart-row:nth-child(even) {
+		background: #f9fafb;
+	}
+
+	.myths-section {
+		margin-bottom: 4rem;
+	}
+
+	.myths-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+	}
+
+	.myth-card {
+		background: white;
+		border-radius: 1rem;
+		overflow: hidden;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+	}
+
+	.myth-card:hover {
+		transform: translateY(-4px);
+	}
+
+	.myth-header {
+		background: #fee2e2;
+		padding: 1.5rem;
+	}
+
+	.myth-label {
+		background: #dc2626;
+		color: white;
+		padding: 0.25rem 0.75rem;
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.myth-header h3 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		color: #1f2937;
+		margin-top: 0.5rem;
+	}
+
+	.fact-content {
+		padding: 1.5rem;
+	}
+
+	.fact-label {
+		background: #059669;
+		color: white;
+		padding: 0.25rem 0.75rem;
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.fact-content p {
+		color: #6b7280;
+		line-height: 1.6;
+		margin-top: 0.5rem;
+	}
+
+	.cta-section {
+		background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+		color: white;
+		padding: 4rem 0;
+		border-radius: 2rem;
+		text-align: center;
+	}
+
+	.cta-content h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+	}
+
+	.cta-content p {
+		font-size: 1.25rem;
+		margin-bottom: 2rem;
+		opacity: 0.9;
+	}
+
+	.cta-buttons {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+	}
+
+	.cta-section .btn-secondary {
+		background: rgba(255, 255, 255, 0.1);
+		color: white;
+		border-color: rgba(255, 255, 255, 0.3);
+	}
+
+	.cta-section .btn-secondary:hover {
+		background: white;
+		color: #dc2626;
+	}
+
+	@media (max-width: 768px) {
+		.hero-content h1 {
+			font-size: 2rem;
+		}
+
+		.section-title {
+			font-size: 2rem;
+		}
+
+		.eligibility-content {
+			grid-template-columns: 1fr;
+		}
+
+		.eligibility-lists {
+			grid-template-columns: 1fr;
+		}
+
+		.timeline-item {
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.chart-header,
+		.chart-row {
+			grid-template-columns: 1fr;
+			gap: 0.5rem;
+		}
+
+		.chart-header {
+			display: none;
+		}
+
+		.chart-row {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.cta-buttons {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+</style>

@@ -1,0 +1,100 @@
+---
+const { currentPage } = Astro.props;
+---
+
+<header class="header">
+	<nav class="nav">
+		<div class="container">
+			<div class="nav-content">
+				<div class="logo">
+					<a href="/">
+						<div class="logo-icon">🩸</div>
+						<span class="logo-text">BloodConnect</span>
+					</a>
+				</div>
+				<div class="nav-links">
+					<a href="/" class={currentPage === 'home' ? 'active' : ''}>Home</a>
+					<a href="/donor-dashboard" class={currentPage === 'donor' ? 'active' : ''}>Donor Dashboard</a>
+					<a href="/receiver-dashboard" class={currentPage === 'receiver' ? 'active' : ''}>Find Donors</a>
+					<a href="/awareness" class={currentPage === 'awareness' ? 'active' : ''}>Awareness</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<style>
+	.header {
+		background: rgba(255, 255, 255, 0.95);
+		backdrop-filter: blur(10px);
+		border-bottom: 1px solid #e5e7eb;
+		position: sticky;
+		top: 0;
+		z-index: 50;
+	}
+
+	.nav-content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem 0;
+	}
+
+	.logo a {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: #1f2937;
+	}
+
+	.logo-icon {
+		font-size: 2rem;
+		margin-right: 0.5rem;
+	}
+
+	.logo-text {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #dc2626;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 2rem;
+	}
+
+	.nav-links a {
+		text-decoration: none;
+		color: #6b7280;
+		font-weight: 500;
+		transition: color 0.2s ease;
+		position: relative;
+	}
+
+	.nav-links a:hover,
+	.nav-links a.active {
+		color: #dc2626;
+	}
+
+	.nav-links a.active::after {
+		content: '';
+		position: absolute;
+		bottom: -0.5rem;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: #dc2626;
+		border-radius: 1px;
+	}
+
+	@media (max-width: 768px) {
+		.nav-links {
+			gap: 1rem;
+			font-size: 0.875rem;
+		}
+		
+		.logo-text {
+			font-size: 1.25rem;
+		}
+	}
+</style>
